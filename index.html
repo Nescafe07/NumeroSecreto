@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Descubra o Número Secreto - Será Capaz?</title>
+</head>
+<style>
+    body {
+        background-color: rgb(58, 86, 112);
+    }
+
+    .butao {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+    .botao {
+        background-color: lightblue;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 90px 180px;
+        font-size: 18px;
+        cursor: pointer;
+        transition: background-color 0.3s, transform 0.2s;
+        font-size: 35px;
+        color: white;
+    }
+
+    button:hover {
+        transform: scale(1.05);
+    }
+
+    .button:active {
+        transform: scale(0.95);
+    }
+</style>
+
+<body>
+    <div class="butao">
+        <button class="botao" onclick="numeroSecreto()">Jogar</button>
+    </div>
+    <script src="./src/script.js"></script>
+</body>
+
+</html>
